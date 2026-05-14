@@ -32,29 +32,13 @@
 ## 🖼️ Screenshots
 
 ### Homepage Features
-![Homepage Features](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744357212/Screenshot_2025-04-11_121744_tk2oir.png)
+<img width="669" height="551" alt="Screenshot 2026-05-14 at 7 07 40 PM" src="https://github.com/user-attachments/assets/811ce97d-a578-4127-b63a-d6b7f3ebfc58" />
 
 ### User Guide
-![User Guide](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744357291/Screenshot_2025-04-11_131058_m0d0ya.png)
+<img width="619" height="271" alt="Screenshot 2026-05-14 at 7 08 53 PM" src="https://github.com/user-attachments/assets/8dbd2da1-c348-4320-af52-d6759dbb8606" />
 
 ### Login Interface
-![Login](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744353888/Screenshot_2025-04-11_121424_ipq5nc.png)
-
-### Doctor Dashboard
-![Doctor Dashboard](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744350915/Screenshot_2025-04-11_112459_pem3av.png)
-
-### Patient Dashboard
-![Patient Dashboard](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744353803/Screenshot_2025-04-11_121304_vtpws2.png)
-
-### Report Analysis
-![Analyze Report](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744353613/Screenshot_2025-04-11_120940_kusxvq.png)
-
-### Smart Scan Feature
-![Smart Scan](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744357395/Screenshot_2025-04-11_131247_cm9nck.png)
-
-### Profile Management
-![Edit Doctor Profile](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744351052/Screenshot_2025-04-11_112654_rshnu8.png)
-![Edit Patient Profile](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744357551/Screenshot_2025-04-11_131525_umerbe.png)
+<img width="1012" height="696" alt="image" src="https://github.com/user-attachments/assets/de661761-cb2d-43d3-a357-a513d30e7981" />
 
 ## 🛠️ Technology Stack
 
@@ -132,6 +116,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgements
 
-- Thanks to all our beta testers and early adopters
 - Special thanks to the open-source community for providing amazing tools
 - Medical professionals who provided valuable feedback during development
