@@ -113,8 +113,3 @@ We welcome contributions to DigiCare! Please feel free to submit a Pull Request.
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgements
-
-- Special thanks to the open-source community for providing amazing tools
-- Medical professionals who provided valuable feedback during development
