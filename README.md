@@ -1,6 +1,7 @@
 # 🩺 DigiCare - AI-Powered Diagnostic Assistant
 
-![DigiCare](https://res.cloudinary.com/db0hwxbsc/image/upload/v1744350551/Screenshot_2025-04-11_111209_ooi6fu.png)
+<img width="1129" height="705" alt="Screenshot 2026-05-14 at 7 05 57 PM" src="https://github.com/user-attachments/assets/efc8b575-a4f5-42a2-87a5-4ea8eb065728" />
+
 
 ## 🚀 [Live Demo](https://digi-care-hack-mol6-0.vercel.app/)
 
