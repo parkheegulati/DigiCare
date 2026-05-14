@@ -1,0 +1,13 @@
+python-dotenv
+langchain
+requests
+chromadb
+langchain_google_genai
+pypdf
+reportlab
+langchain_community
+langchain-chroma
+fastapi
+asyncio
+uvicorn
+pydantic

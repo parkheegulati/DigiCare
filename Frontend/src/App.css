@@ -1,0 +1,87 @@
+.App {
+  font-family: 'Roboto', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body, .app-container {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: #0cbbb4;
+}
+
+/* Styling for the components */
+.component {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin-top: auto; */
+  height: 100vh;
+  overflow: auto; 
+  margin: 0;
+  
+}
+
+.component > * {
+  text-align: center; /* Center text horizontally */
+  max-width: 100%; /* Adjust as needed */
+}
+
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 45px; /* Adjust as needed */
+}
+
+h2,
+h3 {
+    font-family: "Lobster", sans-serif; /* Specify the font family */
+    font-weight: bold; 
+}
+
+
+p {
+  font-size: 20px;
+}
+
+.a1 {
+  color: black !important;
+  font-size: 20px;
+}
+
+.a2 {
+  color: white !important;
+  font-size: 20px;
+}
+
+a:active,
+a:visited,
+a:hover{
+    text-decoration: underline #0cbbb4; /* Add underline */
+}
+
+#name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#links {
+  font-size: 18px;
+
+}
