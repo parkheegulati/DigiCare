@@ -3,8 +3,6 @@
 <img width="1129" height="705" alt="Screenshot 2026-05-14 at 7 05 57 PM" src="https://github.com/user-attachments/assets/efc8b575-a4f5-42a2-87a5-4ea8eb065728" />
 
 
-## 🚀 [Live Demo](https://digi-care-hack-mol6-0.vercel.app/)
-
 ## 💡 Overview
 
 **DigiCare** is a revolutionary AI-powered diagnostic assistant designed to bridge the gap between medical data and actionable insights. Our platform empowers healthcare professionals to make faster, more accurate diagnoses while providing patients with unprecedented access to their medical information.
