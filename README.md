@@ -1,6 +1,7 @@
+
 # 🩺 DigiCare - AI-Powered Diagnostic Assistant
 
-<img width="1129" height="705" alt="Screenshot 2026-05-14 at 7 05 57 PM" src="https://github.com/user-attachments/assets/efc8b575-a4f5-42a2-87a5-4ea8eb065728" />
+<img width="1121" height="619" alt="Screenshot 2026-09-22 at 10 29 30 PM" src="https://github.com/user-attachments/assets/d52bd739-97e9-4ba3-8c35-7af7609fd67d" />
 
 
 ## 💡 Overview
@@ -13,30 +14,29 @@
 
 ### For Healthcare Professionals 👨‍⚕️👩‍⚕️
 
-- **🧠 Report Analysis** – Instantly analyze reports and other medical data with state-of-the-art AI
-- **📊 Smart History Scan** – Extract critical insights from comprehensive patient histories
-- **🏥 Doctor Dashboard** – Access patient records, appointments, and diagnostic tools in one place
-- **📱 Quick Decision Support** – Receive AI-assisted diagnostic suggestions with confidence scores
-- **📑 Comprehensive Patient View** – See unified analysis of all patient reports for informed decisions
+- **Report Analysis** – Instantly analyze reports and other medical data with state-of-the-art AI
+- **Smart History Scan** – Extract critical insights from comprehensive patient histories
+- **Doctor Dashboard** – Access patient records, appointments, and diagnostic tools in one place
+- **Quick Decision Support** – Receive AI-assisted diagnostic suggestions with confidence scores
+- **Comprehensive Patient View** – See unified analysis of all patient reports for informed decisions
 
 ### For Patients 👨‍👩‍👧‍👦
 
-- **📋 Personal Health Portal** – Access, organize and understand your medical history
-- **🔬 Report Analysis** – Get AI-powered explanations of lab results and medical images
-- **📈 Health Tracking** – Monitor your health metrics and see trends over time
-- **📆 Appointment Management** – Schedule and track consultations with healthcare providers
-- **👨‍👩‍👧 Family Management** – Oversee healthcare for dependents from a single account
+- **Personal Health Portal** – Access, organize and understand your medical history
+- **Report Analysis** – Get AI-powered explanations of lab results and medical images
+- **Health Tracking** – Monitor your health metrics and see trends over time
+- **Appointment Management** – Schedule and track consultations with healthcare providers
+- **Family Management** – Oversee healthcare for dependents from a single account
 
 ## 🖼️ Screenshots
 
 ### Homepage Features
-<img width="669" height="551" alt="Screenshot 2026-05-14 at 7 07 40 PM" src="https://github.com/user-attachments/assets/811ce97d-a578-4127-b63a-d6b7f3ebfc58" />
 
-### User Guide
-<img width="619" height="271" alt="Screenshot 2026-05-14 at 7 08 53 PM" src="https://github.com/user-attachments/assets/8dbd2da1-c348-4320-af52-d6759dbb8606" />
+<img width="950" height="564" alt="Screenshot 2026-09-22 at 10 30 29 PM" src="https://github.com/user-attachments/assets/45075bfd-bd7e-455b-b9d7-b045c448c096" />
+
 
 ### Login Interface
-<img width="1012" height="696" alt="image" src="https://github.com/user-attachments/assets/de661761-cb2d-43d3-a357-a513d30e7981" />
+<img width="1111" height="695" alt="Screenshot 2026-09-22 at 10 30 50 PM" src="https://github.com/user-attachments/assets/2c1ba094-c168-4322-ab4d-e8c3e89b12bd" />
 
 ## 🛠️ Technology Stack
 
@@ -103,11 +103,3 @@
    # In a new terminal, in frontend directory
    npm start
    ```
-
-## 🤝 Contributing
-
-We welcome contributions to DigiCare! Please feel free to submit a Pull Request.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
