@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+/* Enable class-based dark mode for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #37352f;
+  --color-secondary: #f7f6f3;
+  --color-background: #ffffff;
+  --color-dark-background: #191919;
+  --color-accent: #4CA0C0;
+  --color-blue-600: #4CA0C0;
+  --color-blue-500: #4CA0C0;
+  --color-blue-700: #3988a7;
+  --color-blue-50: #edf7fa;
+  --color-blue-100: #d5edf4;
+  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-manrope: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background-theme: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* #ffffff */
+    --foreground: 40 8% 19%; /* #37352f */
+    --card: 40 12% 97%; /* #f7f6f3 */
+    --card-foreground: 40 8% 19%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 40 8% 19%;
+    --primary: 40 8% 19%; /* #37352f */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 40 6% 95%; /* #f1f1ef */
+    --secondary-foreground: 40 8% 19%;
+    --muted: 40 6% 96%; /* #f7f6f3 */
+    --muted-foreground: 40 2% 46%; /* #787774 */
+    --accent: 40 6% 93%; /* #efefed */
+    --accent-foreground: 40 8% 19%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 5% 91%; /* #e9e9e7 */
+    --input: 40 5% 91%; /* #e9e9e7 */
+    --ring: 40 8% 19%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 10%; /* #191919 */
+    --foreground: 0 0% 90%; /* rgba(255,255,255,0.81) */
+    --card: 0 0% 13%; /* #202020 */
+    --card-foreground: 0 0% 90%;
+    --popover: 0 0% 13%;
+    --popover-foreground: 0 0% 90%;
+    --primary: 0 0% 95%; /* #e3e3e3 */
+    --primary-foreground: 0 0% 10%;
+    --secondary: 0 0% 16%; /* #282828 */
+    --secondary-foreground: 0 0% 90%;
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 0 0% 18%;
+    --accent-foreground: 0 0% 90%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 18%; /* #2f2f2f */
+    --input: 0 0% 18%;
+    --ring: 0 0% 60%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(233, 233, 231, 0.8);
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  }
+  .dark .glass {
+    background-color: rgba(25, 25, 25, 0.85);
+    border: 1px solid rgba(47, 47, 47, 0.8);
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.3);
+  }
+
+  .glass-pill {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  }
+  .dark .glass-pill {
+    background: rgba(26, 26, 26, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.04), 0 0 1px 1px rgba(0, 0, 0, 0.02);
+  }
+  .dark .glass-card {
+    background: rgba(30, 30, 30, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.4);
+  }
+
+  .radar-ring {
+    border-radius: 9999px;
+    border: 1px dashed rgba(180, 195, 215, 0.5);
+  }
+  .dark .radar-ring {
+    border: 1px dashed rgba(255, 255, 255, 0.15);
+  }
+}

@@ -1,0 +1,50 @@
+.App {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body, .app-container {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the components */
+.component {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: auto; 
+  margin: 0;
+}
+
+.component > * {
+  text-align: center;
+  max-width: 100%;
+}
+
+h2, h3 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
+}
+
+a:active,
+a:visited,
+a:hover {
+  text-decoration: underline #37352f;
+}
+
+#name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#links {
+  font-size: 18px;
+}
